@@ -1,8 +1,12 @@
-(function (win)
+(function (win) {
 	'use strict';
 
 	function app () {
-		return();
+		return(); {
+		hello: function(name){
+		return: 'Hi ' + name;
+	}
+	};
 	}
 
 	win.app = app ();
